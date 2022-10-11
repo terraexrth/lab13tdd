@@ -10,7 +10,8 @@ public class FizzClass {
         //if %3 == 0 result choose be Fizz
         if(i % 3 != 0 && i % 5 != 0){
             result = String.valueOf(i);
-
+        }else if(i % 3 == 0){
+            result = "Fizz";
         }
         return result;
     }
