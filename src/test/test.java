@@ -67,6 +67,14 @@ class test {
 			System.out.println("105 = "+ fizz.FizzBuzzCal());
 			
 		}
+		@Test
+		@DisplayName("test input 0")
+		void FIZZBUZZ0() {
+			fizz = new FizzClass(0);
+			assertEquals("its should over than 1", fizz.FizzBuzzCal());
+			System.out.println("its should over than 1 = "+ fizz.FizzBuzzCal());
+			
+		}
 		
 		
 		
