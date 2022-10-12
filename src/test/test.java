@@ -9,7 +9,6 @@ import org.junit.jupiter.api.Test;
 
 
 class test {
-
 		FizzClass fizz;
 		
 		@Test
