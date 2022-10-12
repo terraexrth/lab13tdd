@@ -13,6 +13,9 @@ public class FizzClass {
         }
         //we should have minimum input to more than 0
         //
+        if(i<=0){
+            return "its should more than 0";
+        }
         if(i % 3 == 0 && i % 5 ==0){
             result = "FizzBuzz";
         }
