@@ -63,8 +63,8 @@ class test {
 		@DisplayName("test input 105")
 		void FIZZBUZZ105() {
 			fizz = new FizzClass(105);
-			assertEquals("105", fizz.FizzBuzzCal());
-			System.out.println("105 = "+ fizz.FizzBuzzCal());
+			assertEquals("its over than 100", fizz.FizzBuzzCal());
+			System.out.println("its over than 100 = "+ fizz.FizzBuzzCal());
 			
 		}
 		
