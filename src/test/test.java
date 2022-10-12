@@ -59,6 +59,14 @@ class test {
 			System.out.println("88 = "+ fizz.FizzBuzzCal());
 			
 		}
+		@Test
+		@DisplayName("test input 105")
+		void FIZZBUZZ105() {
+			fizz = new FizzClass(105);
+			assertEquals("105", fizz.FizzBuzzCal());
+			System.out.println("105 = "+ fizz.FizzBuzzCal());
+			
+		}
 		
 		
 		
