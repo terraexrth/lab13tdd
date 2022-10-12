@@ -64,7 +64,7 @@ class test {
 		void FIZZBUZZ105() {
 			fizz = new FizzClass(105);
 			assertEquals("its over than 100", fizz.FizzBuzzCal());
-			System.out.println("its over than 100 = "+ fizz.FizzBuzzCal());
+			System.out.println("105 = "+ fizz.FizzBuzzCal());
 			
 		}
 		
